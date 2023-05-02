@@ -4,4 +4,4 @@ Run this code with the scala-cli
 
 cd into the Main.scala file
 
--> scala-cli run --watch
+-> scala-cli run 'file' --watch
