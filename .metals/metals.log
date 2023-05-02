@@ -1,0 +1,232 @@
+2023.05.02 20:50:55 INFO  Started: Metals version 0.11.12 in workspace 'D:\Programmerings saker\scala\hello-world' for client Visual Studio Code 1.77.3.
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Programmerings saker\scala\hello-world\.metals\metals (H2 2.1)
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.015s)
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+May 02, 2023 8:50:55 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.044s)
+2023.05.02 20:50:55 INFO  time: initialize in 0.55s
+2023.05.02 20:50:57 WARN  Build server is not auto-connectable.
+2023.05.02 20:50:57 WARN  no build target for: D:\Programmerings saker\scala\hello-world\build.sbt
+2023.05.02 20:51:03 INFO  no build target found for D:\Programmerings saker\scala\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.02 20:51:03 WARN  no build target for: D:\Programmerings saker\scala\hello-world\src\main\scala\Main.scala
+2023.05.02 20:51:03 INFO  running 'C:\Users\marti\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\marti\AppData\Local\Temp\metals1463188848768484794\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.05.02 20:51:04 ERROR [info] [launcher] getting org.scala-sbt sbt 1.8.2  (this may take some time)...
+2023.05.02 20:51:10 ERROR [info] [launcher] getting Scala 2.12.17 (for sbt)...
+2023.05.02 20:51:13 INFO  [info] welcome to sbt 1.8.2 (AdoptOpenJDK Java 11.0.11)
+2023.05.02 20:51:15 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2023.05.02 20:51:15 INFO  [info] loading project definition from D:\Programmerings saker\scala\hello-world\project\project
+2023.05.02 20:51:18 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2023.05.02 20:51:18 INFO  [info] loading project definition from D:\Programmerings saker\scala\hello-world\project
+2023.05.02 20:51:23 INFO  [success] Generated .bloop\hello-world-build.json
+2023.05.02 20:51:23 INFO  [success] Total time: 4 s, completed 2 May 2023, 20:51:23
+2023.05.02 20:51:24 INFO  [info] loading settings for project hello-world from build.sbt ...
+2023.05.02 20:51:24 INFO  [info] set current project to hello-world (in build file:/D:/Programmerings%20saker/scala/hello-world/)
+2023.05.02 20:51:26 INFO  [success] Generated .bloop\hello-world.json
+2023.05.02 20:51:26 INFO  [success] Generated .bloop\hello-world-test.json
+2023.05.02 20:51:26 INFO  [success] Total time: 2 s, completed 2 May 2023, 20:51:26
+2023.05.02 20:51:26 INFO  time: ran 'sbt bloopInstall' in 23s
+2023.05.02 20:51:26 INFO  Attempting to connect to the build server...
+2023.05.02 20:51:26 INFO  Setting up current java home C:\Users\marti\.jabba\jdk\adopt@1.11.0-11 in C:\Users\marti\.bloop\bloop.json
+2023.05.02 20:51:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\.metals\bsp.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.02 20:51:39 INFO  Attempting to connect to the build server...
+2023.05.02 20:51:39 INFO  Bloop uses C:\Users\marti\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\marti\.bloop\bloop.json
+2023.05.02 20:51:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\project\.metals\bsp.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.02 20:51:39 INFO  time: Connected to build server in 13s
+2023.05.02 20:51:39 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.02 20:51:40 INFO  time: Imported build in 0.14s
+2023.05.02 20:51:46 INFO  time: indexed workspace in 5.95s
+2023.05.02 20:51:47 INFO  compiling hello-world (1 scala source)
+2023.05.02 20:52:07 INFO  time: compiled hello-world in 20s
+May 02, 2023 8:52:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2023.05.02 20:54:31 INFO  Disconnecting from Bloop session...
+2023.05.02 20:54:31 INFO  Shut down connection with build server.
+2023.05.02 20:54:31 INFO  Shut down connection with build server.
+2023.05.02 20:54:31 INFO  Attempting to connect to the build server...
+2023.05.02 20:54:31 INFO  Bloop uses C:\Users\marti\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\marti\.bloop\bloop.json
+2023.05.02 20:54:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\.metals\bsp.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.02 20:54:31 INFO  Attempting to connect to the build server...
+2023.05.02 20:54:31 INFO  Bloop uses C:\Users\marti\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\marti\.bloop\bloop.json
+2023.05.02 20:54:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\project\.metals\bsp.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.02 20:54:31 INFO  time: Connected to build server in 65ms
+2023.05.02 20:54:31 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.02 20:54:33 INFO  time: indexed workspace in 1.57s
+2023.05.02 20:55:08 INFO  Configured debugger context in 2 seconds
+2023.05.02 20:55:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\.metals\dap-server.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.05.02 20:55:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\.metals\dap-client.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.05.02 20:55:09 INFO  Starting debug proxy for [Main]
+2023.05.02 20:55:08 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:53008 .
+2023.05.02 20:55:08 INFO  Attaching to debuggee VM succeeded.
+2023.05.02 20:55:09 INFO  Canceling debug proxy for [Main]
+2023.05.02 20:55:08 INFO  Closing debug server tcp://0.0.0.0:53004
+2023.05.02 20:55:15 INFO  compiling hello-world (1 scala source)
+2023.05.02 20:55:15 INFO  time: compiled hello-world in 0.65s
+2023.05.02 20:56:17 WARN  no build target for: D:\Programmerings saker\scala\hello-world\project\metals.sbt
+2023.05.02 20:56:23 WARN  no build target for: D:\Programmerings saker\scala\hello-world\project\project\metals.sbt
+2023.05.02 20:57:11 INFO  compiling hello-world (1 scala source)
+2023.05.02 20:57:11 INFO  time: compiled hello-world in 0.6s
+2023.05.02 20:59:28 INFO  compiling hello-world (1 scala source)
+2023.05.02 20:59:28 INFO  time: compiled hello-world in 0.71s
+2023.05.02 21:00:22 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:00:22 INFO  time: compiled hello-world in 0.65s
+2023.05.02 21:00:25 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:00:25 INFO  time: compiled hello-world in 0.59s
+2023.05.02 21:00:40 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.12' (since 6m 8.696s)
+2023.05.02 21:00:45 INFO  Configured debugger context in 1 second
+2023.05.02 21:00:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\.metals\dap-server.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.05.02 21:00:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\.metals\dap-client.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.05.02 21:00:46 INFO  Starting debug proxy for [Main]
+2023.05.02 21:00:45 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:53361 .
+2023.05.02 21:00:45 INFO  Attaching to debuggee VM succeeded.
+2023.05.02 21:00:46 INFO  Canceling debug proxy for [Main]
+2023.05.02 21:00:45 INFO  Closing debug server tcp://0.0.0.0:53358
+2023.05.02 21:00:59 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:00:59 INFO  time: compiled hello-world in 0.53s
+2023.05.02 21:03:25 INFO  Shutting down server
+2023.05.02 21:03:25 INFO  shutting down Metals
+2023.05.02 21:03:25 INFO  Shut down connection with build server.
+2023.05.02 21:03:25 INFO  Shut down connection with build server.
+2023.05.02 21:03:25 INFO  Exiting server
+2023.05.02 21:03:38 INFO  Started: Metals version 0.11.12 in workspace 'D:\Programmerings saker\scala\hello-world' for client Visual Studio Code 1.77.3.
+May 02, 2023 9:03:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 02, 2023 9:03:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 02, 2023 9:03:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 02, 2023 9:03:38 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Programmerings saker\scala\hello-world\.metals\metals (H2 2.1)
+May 02, 2023 9:03:38 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+May 02, 2023 9:03:38 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+May 02, 2023 9:03:38 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.02 21:03:38 INFO  time: initialize in 0.7s
+2023.05.02 21:03:40 INFO  Attempting to connect to the build server...
+2023.05.02 21:03:40 INFO  Bloop uses C:\Users\marti\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\marti\.bloop\bloop.json
+2023.05.02 21:03:40 INFO  skipping build import with status 'Installed'
+2023.05.02 21:03:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\.metals\bsp.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.02 21:03:40 INFO  Attempting to connect to the build server...
+2023.05.02 21:03:40 INFO  Bloop uses C:\Users\marti\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\marti\.bloop\bloop.json
+2023.05.02 21:03:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\project\.metals\bsp.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.02 21:03:40 INFO  time: Connected to build server in 0.2s
+2023.05.02 21:03:40 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.02 21:03:44 INFO  time: indexed workspace in 3.21s
+2023.05.02 21:07:52 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:07:52 INFO  time: compiled hello-world in 0.79s
+May 02, 2023 9:08:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 02, 2023 9:08:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 02, 2023 9:08:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 02, 2023 9:08:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 02, 2023 9:09:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 02, 2023 9:09:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.02 21:09:59 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:09:59 INFO  time: compiled hello-world in 0.91s
+2023.05.02 21:10:06 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:10:06 INFO  time: compiled hello-world in 0.69s
+2023.05.02 21:10:19 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:10:19 INFO  time: compiled hello-world in 0.67s
+May 02, 2023 9:11:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.02 21:11:07 INFO  Shutting down server
+2023.05.02 21:11:07 INFO  shutting down Metals
+2023.05.02 21:11:07 INFO  Shut down connection with build server.
+2023.05.02 21:11:07 INFO  Shut down connection with build server.
+2023.05.02 21:11:07 INFO  Exiting server
+2023.05.02 21:11:15 INFO  Started: Metals version 0.11.12 in workspace 'D:\Programmerings saker\scala\hello-world' for client Visual Studio Code 1.77.3.
+May 02, 2023 9:11:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 02, 2023 9:11:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 02, 2023 9:11:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 02, 2023 9:11:16 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Programmerings saker\scala\hello-world\.metals\metals (H2 2.1)
+May 02, 2023 9:11:16 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+May 02, 2023 9:11:16 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+May 02, 2023 9:11:16 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.02 21:11:16 INFO  time: initialize in 0.73s
+2023.05.02 21:11:18 INFO  Attempting to connect to the build server...
+2023.05.02 21:11:18 INFO  Bloop uses C:\Users\marti\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\marti\.bloop\bloop.json
+2023.05.02 21:11:18 INFO  skipping build import with status 'Installed'
+2023.05.02 21:11:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\.metals\bsp.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.02 21:11:18 INFO  Attempting to connect to the build server...
+2023.05.02 21:11:18 INFO  Bloop uses C:\Users\marti\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\marti\.bloop\bloop.json
+2023.05.02 21:11:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Programmerings saker\scala\hello-world\project\.metals\bsp.trace.json or C:\Users\marti\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.02 21:11:18 INFO  time: Connected to build server in 0.24s
+2023.05.02 21:11:18 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.02 21:11:22 INFO  time: indexed workspace in 3.31s
+2023.05.02 21:12:17 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:12:17 INFO  time: compiled hello-world in 0.23s
+2023.05.02 21:12:54 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:12:54 INFO  time: compiled hello-world in 0.82s
+2023.05.02 21:14:03 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:14:03 INFO  time: compiled hello-world in 0.87s
+2023.05.02 21:14:18 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:14:18 INFO  time: compiled hello-world in 0.73s
+2023.05.02 21:15:12 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:15:12 INFO  time: compiled hello-world in 0.8s
+2023.05.02 21:15:51 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:15:51 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 21:15:51 INFO  time: compiled hello-world in 0.86s
+2023.05.02 21:15:57 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:15:57 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 21:15:57 INFO  time: compiled hello-world in 0.9s
+2023.05.02 21:16:02 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:16:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 21:16:02 INFO  time: compiled hello-world in 0.8s
+May 02, 2023 9:16:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 753
+2023.05.02 21:16:57 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:16:57 INFO  time: compiled hello-world in 0.84s
+2023.05.02 21:17:05 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:17:05 INFO  time: compiled hello-world in 0.72s
+2023.05.02 21:17:15 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:17:15 INFO  time: compiled hello-world in 0.7s
+2023.05.02 21:17:28 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:17:28 INFO  time: compiled hello-world in 0.17s
+2023.05.02 21:17:45 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:17:45 INFO  time: compiled hello-world in 0.13s
+2023.05.02 21:18:02 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:18:02 INFO  time: compiled hello-world in 0.76s
+2023.05.02 21:19:03 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:19:03 INFO  time: compiled hello-world in 0.74s
+May 02, 2023 9:19:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1240
+May 02, 2023 9:19:32 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 539, count -1, length 584
+2023.05.02 21:19:36 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:19:36 INFO  time: compiled hello-world in 0.75s
+2023.05.02 21:20:00 INFO  compiling hello-world (1 scala source)
+2023.05.02 21:20:00 INFO  time: compiled hello-world in 0.84s
