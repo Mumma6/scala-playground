@@ -230,3 +230,217 @@ WARNING: offset 539, count -1, length 584
 2023.05.02 21:19:36 INFO  time: compiled hello-world in 0.75s
 2023.05.02 21:20:00 INFO  compiling hello-world (1 scala source)
 2023.05.02 21:20:00 INFO  time: compiled hello-world in 0.84s
+2023.05.02 22:23:02 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:23:02 INFO  time: compiled hello-world in 0.79s
+2023.05.02 22:23:09 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:23:09 INFO  time: compiled hello-world in 65ms
+2023.05.02 22:23:11 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:23:11 INFO  time: compiled hello-world in 67ms
+2023.05.02 22:23:13 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:23:13 INFO  time: compiled hello-world in 63ms
+2023.05.02 22:23:15 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:23:15 INFO  time: compiled hello-world in 0.47s
+2023.05.02 22:23:32 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:23:32 INFO  time: compiled hello-world in 0.54s
+2023.05.02 22:23:36 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:23:36 INFO  time: compiled hello-world in 69ms
+May 02, 2023 10:24:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1557
+2023.05.02 22:24:13 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:24:13 INFO  time: compiled hello-world in 61ms
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.05.02 22:24:38 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:24:38 INFO  time: compiled hello-world in 0.82s
+2023.05.02 22:24:41 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:24:41 INFO  time: compiled hello-world in 0.93s
+2023.05.02 22:24:44 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:24:44 INFO  time: compiled hello-world in 0.62s
+2023.05.02 22:24:51 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:24:51 INFO  time: compiled hello-world in 0.11s
+2023.05.02 22:24:56 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:24:57 INFO  time: compiled hello-world in 1.08s
+2023.05.02 22:25:46 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:25:46 INFO  time: compiled hello-world in 68ms
+2023.05.02 22:25:48 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:25:48 INFO  time: compiled hello-world in 51ms
+2023.05.02 22:25:51 INFO  compiling hello-world (3 scala sources)
+2023.05.02 22:25:51 INFO  time: compiled hello-world in 55ms
+2023.05.02 22:25:53 INFO  compiling hello-world (3 scala sources)
+2023.05.02 22:25:53 INFO  time: compiled hello-world in 48ms
+2023.05.02 22:25:56 INFO  compiling hello-world (3 scala sources)
+2023.05.02 22:25:56 INFO  time: compiled hello-world in 50ms
+2023.05.02 22:25:58 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:25:58 INFO  time: compiled hello-world in 42ms
+2023.05.02 22:26:06 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:26:06 INFO  time: compiled hello-world in 0.74s
+2023.05.02 22:26:48 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:26:48 INFO  time: compiled hello-world in 0.7s
+2023.05.02 22:26:57 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:26:57 INFO  time: compiled hello-world in 53ms
+2023.05.02 22:27:00 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:27:00 INFO  time: compiled hello-world in 0.42s
+2023.05.02 22:27:54 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:27:54 INFO  time: compiled hello-world in 0.39s
+2023.05.02 22:28:17 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:28:17 INFO  time: compiled hello-world in 0.66s
+2023.05.02 22:28:34 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:28:34 INFO  time: compiled hello-world in 0.79s
+2023.05.02 22:28:44 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:28:44 INFO  time: compiled hello-world in 80ms
+2023.05.02 22:29:14 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:29:14 INFO  time: compiled hello-world in 0.66s
+2023.05.02 22:30:26 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:30:26 INFO  time: compiled hello-world in 0.59s
+2023.05.02 22:30:38 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:30:38 INFO  time: compiled hello-world in 0.85s
+2023.05.02 22:30:45 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:30:45 INFO  time: compiled hello-world in 0.4s
+2023.05.02 22:30:45 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:30:45 INFO  time: compiled hello-world in 0.23s
+2023.05.02 22:30:49 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:30:49 INFO  time: compiled hello-world in 0.53s
+2023.05.02 22:31:06 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:31:06 INFO  time: compiled hello-world in 0.55s
+2023.05.02 22:32:37 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:32:37 INFO  time: compiled hello-world in 0.44s
+2023.05.02 22:36:13 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:36:13 INFO  time: compiled hello-world in 0.41s
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 60, 60, 76)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 60, 60, 71)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 60, 60, 71)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 60, 60, 71)
+2023.05.02 22:37:48 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:37:48 INFO  time: compiled hello-world in 0.6s
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 104, 104, 120)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 104, 104, 113)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 104, 104, 114)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[Int]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 104, 104, 115)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[Int]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 104, 104, 115)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[Int]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 104, 104, 115)
+2023.05.02 22:38:34 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:38:34 INFO  time: compiled hello-world in 0.66s
+2023.05.02 22:39:14 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:39:14 INFO  time: compiled hello-world in 0.73s
+May 02, 2023 10:39:45 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 182, count -1, length 192
+2023.05.02 22:39:48 WARN  Using indexes to guess the definition of anOption2
+2023.05.02 22:39:49 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:39:49 INFO  time: compiled hello-world in 0.67s
+2023.05.02 22:40:33 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:40:33 INFO  time: compiled hello-world in 0.64s
+May 02, 2023 10:46:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2808
+2023.05.02 22:46:50 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:46:50 INFO  time: compiled hello-world in 0.62s
+2023.05.02 22:47:27 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:47:27 INFO  time: compiled hello-world in 66ms
+2023.05.02 22:47:48 INFO  file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala:11:35: stale bloop error: ';' expected but '=' found.
+  val getValue = (option: Option) = option
+                                  ^
+2023.05.02 22:47:48 INFO  file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala:11:35: stale bloop error: ';' expected but '=' found.
+  val getValue = (option: Option) = option
+                                  ^
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 278, 278, 294)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 278, 278, 287)
+2023.05.02 22:48:12 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:48:12 INFO  time: compiled hello-world in 62ms
+2023.05.02 22:48:23 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:48:23 INFO  time: compiled hello-world in 72ms
+2023.05.02 22:48:25 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:48:25 INFO  time: compiled hello-world in 49ms
+2023.05.02 22:48:41 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:48:41 INFO  time: compiled hello-world in 0.14s
+2023.05.02 22:48:55 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:48:55 INFO  time: compiled hello-world in 76ms
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 271, 271, 287)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 271, 271, 280)
+2023.05.02 22:49:25 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:49:25 INFO  time: compiled hello-world in 93ms
+2023.05.02 22:49:31 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:49:31 INFO  time: compiled hello-world in 0.67s
+May 02, 2023 10:49:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3341
+2023.05.02 22:49:56 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:49:56 INFO  time: compiled hello-world in 0.7s
+2023.05.02 22:50:17 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:50:17 INFO  time: compiled hello-world in 97ms
+2023.05.02 22:50:25 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:50:25 INFO  time: compiled hello-world in 83ms
+2023.05.02 22:50:37 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:50:37 INFO  time: compiled hello-world in 83ms
+2023.05.02 22:50:44 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:50:44 INFO  time: compiled hello-world in 0.64s
+2023.05.02 22:50:52 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:50:52 INFO  time: compiled hello-world in 0.62s
+2023.05.02 22:51:05 WARN  Using indexes to guess the definition of anOption
+2023.05.02 22:51:07 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:51:07 INFO  time: compiled hello-world in 0.63s
+2023.05.02 22:51:10 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:51:10 INFO  time: compiled hello-world in 0.66s
+2023.05.02 22:51:24 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:51:24 INFO  time: compiled hello-world in 0.69s
+2023.05.02 22:51:37 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:51:37 INFO  time: compiled hello-world in 0.94s
+2023.05.02 22:52:48 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:52:48 INFO  time: compiled hello-world in 0.67s
+2023.05.02 22:54:16 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:54:16 INFO  time: compiled hello-world in 62ms
+2023.05.02 22:54:40 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:54:40 INFO  time: compiled hello-world in 0.71s
+2023.05.02 22:54:52 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:54:52 INFO  time: compiled hello-world in 0.67s
+2023.05.02 22:55:00 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:55:00 INFO  time: compiled hello-world in 0.11s
+2023.05.02 22:55:44 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:55:44 INFO  time: compiled hello-world in 0.11s
+2023.05.02 22:55:49 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:55:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 22:55:49 INFO  time: compiled hello-world in 0.72s
+May 02, 2023 10:56:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4079
+2023.05.02 22:56:18 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:56:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 22:56:18 INFO  time: compiled hello-world in 0.73s
+May 02, 2023 10:56:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4170
+2023.05.02 22:56:52 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:56:52 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 22:56:52 INFO  time: compiled hello-world in 0.83s
+2023.05.02 22:57:25 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:57:25 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 22:57:25 INFO  time: compiled hello-world in 0.77s
+2023.05.02 22:57:30 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:57:30 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 22:57:30 INFO  time: compiled hello-world in 0.58s
+May 02, 2023 10:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4352
+May 02, 2023 10:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4353
+May 02, 2023 10:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4365
+2023.05.02 22:57:55 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:57:55 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 22:57:55 INFO  time: compiled hello-world in 0.77s
+2023.05.02 22:58:04 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:58:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 22:58:04 INFO  time: compiled hello-world in 0.82s
+2023.05.02 22:58:13 INFO  compiling hello-world (1 scala source)
+2023.05.02 22:58:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 22:58:13 INFO  time: compiled hello-world in 0.79s
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 343, 343, 359)
+something's wrong: no file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala in Option[<error>]RangePosition(file:///D:/Programmerings%20saker/scala/hello-world/src/main/scala/Monads.scala, 343, 343, 354)
+2023.05.02 23:00:15 INFO  compiling hello-world (1 scala source)
+2023.05.02 23:00:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 23:00:15 INFO  time: compiled hello-world in 0.75s
+2023.05.02 23:03:28 INFO  compiling hello-world (1 scala source)
+2023.05.02 23:03:28 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 23:03:28 INFO  time: compiled hello-world in 0.81s
+2023.05.02 23:03:50 INFO  compiling hello-world (1 scala source)
+2023.05.02 23:03:50 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.02 23:03:50 INFO  time: compiled hello-world in 0.71s

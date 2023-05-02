@@ -1,5 +1,6 @@
+import Monads._
+
 object Main extends App {
-  println("Hello, Worlddddwqdd!")
 
   val hej = "hejsaddn"
 
